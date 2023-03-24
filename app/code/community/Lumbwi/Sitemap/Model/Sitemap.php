@@ -194,14 +194,14 @@ class Lumbwi_Sitemap_Model_Sitemap extends Mage_Sitemap_Model_Sitemap
 
         $io->streamOpen($this->getSitemapFilename());
         $io->streamWrite('<?xml version="1.0" encoding="UTF-8"?>' . "\n");
-        $io->streamWrite('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
+        $io->streamWrite('<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
 
         foreach ($this->_siteMapFileNames as $siteMapFileName) {
             $row = '<sitemap><loc>' . $baseUrl . $siteMapFileName . '</loc><lastmod>' . $date . '</lastmod></sitemap>';
             $io->streamWrite($row);
         }
 
-        $io->streamWrite('</urlset>');
+        $io->streamWrite('</sitemapindex>');
         $io->streamClose();
     }
 

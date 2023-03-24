@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Lumbwi_Sitemap>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Lumbwi_Sitemap>
+        <depends>
+            <Mage_Sitemap/>
+        </depends>
+    </modules>
+</config>

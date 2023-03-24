@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lumbwi_Sitemap>
+            <version>1.0.0</version>
+        </Lumbwi_Sitemap>
+    </modules>
+    <global>
+        <models>
+            <sitemap>
+                <rewrite>
+                    <sitemap>Lumbwi_Sitemap_Model_Sitemap</sitemap>
+                </rewrite>
+            </sitemap>
+        </models>
+        <helpers>
+            <sitemap>
+                <class>Lumbwi_Sitemap_Helper</class>
+            </sitemap>
+        </helpers>
+    </global>
+    <default>
+        <sitemap>
+            <limit>
+                <max_lines>50000</max_lines>
+            </limit>
+        </sitemap>
+    </default>
+</config>

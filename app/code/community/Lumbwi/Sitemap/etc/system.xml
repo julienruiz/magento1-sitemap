@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <sitemap translate="label" module="sitemap">
+            <groups>
+                <limit>
+                    <label>Sitemap File Limit</label>
+                    <sort_order>60</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <max_lines translate="label">
+                            <label>Maximum No of URLs Per File</label>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </max_lines>
+                    </fields>
+                </limit>
+            </groups>
+        </sitemap>
+    </sections>
+</config>

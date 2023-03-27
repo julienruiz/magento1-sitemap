@@ -6,6 +6,7 @@ The size limits are defined in configuration in Catalog > Google Sitemap > Sitem
 
 In this case, a sitemap index is created, for example : 
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
@@ -15,3 +16,4 @@ In this case, a sitemap index is created, for example :
     <loc>https://www.example.com/sitemap2.xml</loc>
   </sitemap>
 </sitemapindex>
+```

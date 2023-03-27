@@ -15,5 +15,3 @@ In this case, a sitemap index is created, for example :
     <loc>https://www.example.com/sitemap2.xml</loc>
   </sitemap>
 </sitemapindex>
-
-Translated with www.DeepL.com/Translator (free version)
